@@ -21,18 +21,20 @@ const Header = () => {
           <MaterialIcons
             name="notifications-none"
             size={26}
-            colors={colors.red}
+            color={colors.black}
           />
         </Button>
+
         <Button>
           <MaterialCommunityIcons
             name="message-outline"
             size={26}
-            colors={colors.black}
+            color={colors.black}
           />
         </Button>
+
         <Button>
-          <Feather name="search" size={26} colors={colors.black} />
+          <Feather name="search" size={26} color={colors.black} />
         </Button>
       </RightSide>
     </Container>
