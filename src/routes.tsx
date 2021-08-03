@@ -18,7 +18,7 @@ const Routes: React.FC = () => (
         style: {
           height: 60,
           backgroundColor: colors.primary,
-          borderTopWidhg: 0,
+          borderTopWidth: 0,
         },
         tabStyle: {
           alignItems: "center",
